@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "900253986862",
+    "firebase_url": "https://fcsocialfitness-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fcsocialfitness",
+    "storage_bucket": "fcsocialfitness.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900253986862:android:30bd4c0210b71d4eb6efbf",
+        "android_client_info": {
+          "package_name": "it.codeloops.fcsocialfitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900253986862-hp8tuguir28d2epvivaj75lb8ljvibkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIDvxbB9Wq5CyG5Pd31sf4TcCGkOh3sAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900253986862-hp8tuguir28d2epvivaj75lb8ljvibkk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "900253986862-7gg9faqpmeglnsldu7sbjr07qcvtoltf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.codeloops.fcsocialfitness"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

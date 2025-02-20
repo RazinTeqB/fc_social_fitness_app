@@ -1,0 +1,15 @@
+import 'package:flutter/cupertino.dart';
+import '../constants/api.dart';
+import '../services/http.service.dart';
+import '../models/api_response.dart';
+import '../utils/api_response_utils.dart';
+
+class TrainingRepository extends HttpService {
+
+  Future<ApiResponse> getTrainingCategories(BuildContext context) async {
+    final apiResult = await get(Api.getTrainingCategories);
+    ApiResponse apiResponse = await ApiResponseUtils.parseApiResponse(apiResult,context);
+    return apiResponse;
+  }
+
+}
